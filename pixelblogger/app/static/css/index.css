@@ -1,0 +1,30 @@
+.post-container {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  color: #1F212E;
+  margin: 0 auto;
+  justify-content: space-between; }
+  .post-container-article {
+    background-color: #525E75;
+    padding: 20px;
+    margin: 5px;
+    max-width: 500px;
+    min-height: 250px;
+    box-shadow: 4px 4px black;
+    position: relative; }
+    .post-container-article button {
+      background-color: #1F212E;
+      border: 0;
+      color: #74BACF;
+      padding: 0 8px;
+      position: absolute;
+      bottom: 20px;
+      right: 20px; }
+  .post-container p {
+    font-size: 16px;
+    line-height: 14px; }
+  .post-container em {
+    color: #74BACF; }
+
+/*# sourceMappingURL=index.css.map */

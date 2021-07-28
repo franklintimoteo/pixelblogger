@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css')}}">
+{% endblock %}
+{% block content %}
+    <div class="post-container">
+        <div class="post-container-article">
+            <h4><em>/ </em>Descubra como utilizar format</h4>
+            <p>No artigo de hoje você vai aprender em detalhes como utilizar o método format() na linguagem de programação Python...</p>
+            <button>Continue</button>
+
+            
+        </div>
+
+        <div class="post-container-article">
+            <h4><em>/ </em>Json o que é?</h4>
+            <p>Em computação, JSON, um acrônimo de JavaScript Object Notation, é um formato compacto, de padrão aberto independente, de troca de dados simples e rápida entre sistemas...</p>
+            <button>Continue</button>
+
+        </div>
+
+        <div class="post-container-article">
+            <h4><em>/ </em>Coroutines o que são?</h4>
+            <p>São rotinas cooperativas, ou seja, são rotinas (funções, métodos, procedimentos) que concordam em parar sua execução permitindo que outra rotina possa ser executada naquele momento esperando que essa rotina ...</p>
+
+            <button>Continue</button>
+
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "global.css",
+	"sources": [
+		"../scss/global.scss",
+		"../scss/_variables.scss"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,gBAAgB,ECLJ,OAAO;EDMnB,MAAM,EAAE,GAAG,CAAC,KAAK,CCLH,OAAO;EDMrB,WAAW,EAAE,kBAAkB;EAC/B,KAAK,ECPS,OAAO,GDQxB"
+}

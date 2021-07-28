@@ -1,0 +1,45 @@
+@import '../scss/variables';
+
+.post-container {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    color: $primary-color;
+    margin: 0 auto;
+    justify-content: space-between;
+
+
+    &-article {
+        background-color: $secondary-color;
+        padding: 20px;
+        margin: 5px;
+        max-width:  500px;
+        min-height:250px;
+
+        box-shadow: 4px 4px black;
+        position: relative;
+
+        button {
+            background-color: $primary-color;
+            border: 0;
+            color: $tertiary-color;
+            padding: 0 8px;
+
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            
+
+        }
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 14px;
+    }
+
+    em {
+        color: $tertiary-color;
+    }
+
+}

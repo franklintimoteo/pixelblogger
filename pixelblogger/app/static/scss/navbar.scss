@@ -1,0 +1,32 @@
+@import '../scss/variables';
+
+.navbar {
+    background-color: $secondary-color;
+    display: flex;
+    color: $primary-color;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 0 !important; 
+    
+    &-list {
+        height: 20px;
+    }
+
+    &-list ul {
+        list-style: none;
+        margin-left: -20px;
+        display: flex;
+    
+        
+        li {
+            margin-right: 20px;
+        }
+
+        em {
+            font-style: normal;
+            color: $tertiary-color; 
+        }
+    }
+    
+
+}

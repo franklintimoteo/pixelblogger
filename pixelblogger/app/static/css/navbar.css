@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #525E75;
+  display: flex;
+  color: #1F212E;
+  font-size: 16px;
+  align-items: center;
+  border-radius: 0 !important; }
+  .navbar-list {
+    height: 20px; }
+  .navbar-list ul {
+    list-style: none;
+    margin-left: -20px;
+    display: flex; }
+    .navbar-list ul li {
+      margin-right: 20px; }
+    .navbar-list ul em {
+      font-style: normal;
+      color: #74BACF; }
+
+/*# sourceMappingURL=navbar.css.map */

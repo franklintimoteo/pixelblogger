@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px; }
+  .header-container-right {
+    align-self: center; }
+  .header-container-left h1 {
+    color: #74BACF; }
+
+/*# sourceMappingURL=header.css.map */
