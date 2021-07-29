@@ -8,5 +8,14 @@
             <li><em>/I</em>ndex</li>
             <li><em>/G</em>ithub</li>
         </ul>
+
+        <ul class='flex-right'>
+            {% if current_user.is_authenticated %}
+                <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
+            {% else %}
+                <li><a href="{{ url_for('auth.login') }}">Login</a></li>
+            {% endif %}            
+        </ul>
+        
     </div>
 </navbar>

@@ -7,17 +7,19 @@
     font-size: 16px;
     align-items: center;
     border-radius: 0 !important; 
-    
+
     &-list {
         height: 20px;
+        display: flex;
+        width: 100%;
     }
+
 
     &-list ul {
         list-style: none;
         margin-left: -20px;
         display: flex;
-    
-        
+        flex:1;
         li {
             margin-right: 20px;
         }
@@ -26,6 +28,11 @@
             font-style: normal;
             color: $tertiary-color; 
         }
+
+    }
+
+    .flex-right {
+        justify-content: flex-end;
     }
     
 
