@@ -19,6 +19,9 @@
     .navbar-list ul em {
       font-style: normal;
       color: #74BACF; }
+    .navbar-list ul a {
+      text-decoration: none;
+      color: #1F212E; }
   .navbar .flex-right {
     justify-content: flex-end; }
 
