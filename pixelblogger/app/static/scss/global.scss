@@ -1,9 +1,12 @@
 @import '../scss/variables';
 
 body { 
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    background-color: $bg-color;
-    
+    background-color: $primary-color;
+    border: 4px solid $secondary-color;
+    font-family: 'VT323', monospace;
+    color: $secondary-color;
+    max-width: 1080px;
 }
 

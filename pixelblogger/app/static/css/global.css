@@ -1,11 +1,10 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background-color: #1F212E;
   border: 4px solid #525E75;
   font-family: 'VT323', monospace;
   color: #525E75;
-  max-width: 1080px;
-  margin: 0 auto; }
+  max-width: 1080px; }
 
 /*# sourceMappingURL=global.css.map */
